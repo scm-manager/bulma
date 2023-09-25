@@ -6914,7 +6914,7 @@ label.panel-block:hover {
   display: block;
 }
 
-.tabs li.is-active a, .tabs li.is-active button {
+.tabs li.is-active a, .tabs li button[data-state="active"] {
   border-bottom-color: #485fc7;
   color: #485fc7;
 }
@@ -6972,7 +6972,7 @@ label.panel-block:hover {
   border-bottom-color: #dbdbdb;
 }
 
-.tabs.is-boxed li.is-active a, .tabs.is-boxed li.is-active button {
+.tabs.is-boxed li.is-active a, .tabs.is-boxed li button[data-state="active"] {
   background-color: white;
   border-color: #dbdbdb;
   border-bottom-color: transparent !important;
@@ -7011,7 +7011,7 @@ label.panel-block:hover {
   border-bottom-right-radius: 4px;
 }
 
-.tabs.is-toggle li.is-active a, .tabs.is-toggle li.is-active button {
+.tabs.is-toggle li.is-active a, .tabs.is-toggle li button[data-state="active"] {
   background-color: #485fc7;
   border-color: #485fc7;
   color: #fff;
