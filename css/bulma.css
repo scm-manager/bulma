@@ -6994,7 +6994,6 @@ label.panel-block:hover {
 .tabs.is-toggle a:hover, .tabs.is-toggle button:hover {
   background-color: whitesmoke;
   border-color: #b5b5b5;
-  z-index: 2;
 }
 
 .tabs.is-toggle li + li {
@@ -7015,7 +7014,6 @@ label.panel-block:hover {
   background-color: #485fc7;
   border-color: #485fc7;
   color: #fff;
-  z-index: 1;
 }
 
 .tabs.is-toggle ul {
