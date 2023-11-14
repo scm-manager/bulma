@@ -105,7 +105,7 @@ $tabs-toggle-link-active-color: $link-invert !default
         background-color: $tabs-boxed-link-active-background-color
         border-color: $tabs-boxed-link-active-border-color
         border-bottom-color: $tabs-boxed-link-active-border-bottom-color !important
-      
+
   &.is-fullwidth
     li
       flex-grow: 1
@@ -120,7 +120,6 @@ $tabs-toggle-link-active-color: $link-invert !default
       &:hover
         background-color: $tabs-toggle-link-hover-background-color
         border-color: $tabs-toggle-link-hover-border-color
-        z-index: 2
     li
       & + li
         +ltr-property("margin", -#{$tabs-toggle-link-border-width}, false)
@@ -142,7 +141,6 @@ $tabs-toggle-link-active-color: $link-invert !default
         background-color: $tabs-toggle-link-active-background-color
         border-color: $tabs-toggle-link-active-border-color
         color: $tabs-toggle-link-active-color
-        z-index: 1
     ul
       border-bottom: none
     &.is-toggle-rounded
